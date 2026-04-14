@@ -79,7 +79,7 @@ public class Main {
                     library.returnBook(sc.nextLine());
                     break;
                 case 4:
-                    library.showUserTransactions(uid);
+                    library.showTransactions(uid);
                     break;
                 case 5:
                     System.out.println("User Logged out");
