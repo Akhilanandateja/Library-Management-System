@@ -35,48 +35,16 @@ This project automates book management, user handling, and transaction tracking 
 - Java (Core Java, OOP)
 - JDBC
 - MySQL
-- Git & GitHub
 
----
-
-## 🗂️ Project Structure
-
-Library-Management-System/
-│
-├── Book.java
-├── User.java
-├── Library.java
-├── DBConnection.java
-├── Main.java
-├── mysql-connector-j-9.6.0.jar
-├── .gitignore
-└── README.md
-
----
-
-## ⚙️ Setup Instructions
-
-### 1️⃣ Clone Repository
-git clone https://github.com/YOUR_USERNAME/Library-Management-System.git  
-cd Library-Management-System  
-
----
-
-### 2️⃣ Set Environment Variables (IMPORTANT)
-
-DB_URL=jdbc:mysql://localhost:3306/library_db  
-DB_USER=root  
-DB_PASSWORD=your_password  
-
----
-
-### 3️⃣ Compile
-javac -cp ".;mysql-connector-j-9.6.0.jar" *.java  
-
----
-
-### 4️⃣ Run
-java -cp ".;mysql-connector-j-9.6.0.jar" Main  
+## 🔹 How to Run
+1. Set environment variables:
+   - DB_URL
+   - DB_USER
+   - DB_PASSWORD
+2. Compile:
+   javac -cp ".;mysql-connector-j-9.6.0.jar" *.java
+3. Run:
+   java -cp ".;mysql-connector-j-9.6.0.jar" Main
 
 ---
 
