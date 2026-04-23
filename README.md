@@ -159,8 +159,4 @@ This system helps libraries automate:
 
 Akhilanandateja Sanga
 
----
 
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub!
